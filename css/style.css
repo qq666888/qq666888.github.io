@@ -1,60 +1,71 @@
 *{ margin: 0;padding: 0}
 
 .warpper{
-    width:547px;
-    height:680px;
-    background: wheat;
+    width:900px;
+    height:1200px;
+    border: 1px solid #1f93cc;
     margin: 0 auto;
     overflow: hidden;
 
 }
 
-.y1{width:228px;
-    height:680px;
-    background: cornflowerblue;
-    float: left}
-.y2{width: 300px;
-    height: 680px;
-    background:yellow;
+.y1{width:400px;
+    height: 1200px;
+    border: 1px solid #1f93cc;
+    background: #1f93cc;
     float: left;
+   }
+.y2{width: 494px;
+    height: 1200px;
+    border: 1px solid white;
+    background:white;
+    float:right;
 }
-.y1-1{ width:135px;
-    height: 135px;
-    background: yellow;
+.y1-1{ width:200px;
+    height: 200px;
+    background:url("../img/1.jpg");
     border: 1px solid red;
     border-radius: 100px;
 
     margin: auto;
 }
-.y1-2{ margin-left: 70px;letter-spacing: 30px;}
-.y1-3{margin-left: 52px
+.y1-2{ margin-left: 150px;letter-spacing: 50px;}
+.y1-3{margin-left: 130px
 
 }
 .y3 {
-    width:228px;height: 454px; background: greenyellow; margin-top: 35px;border: 1px solid silver; overflow: hidden;
+    width:400px;height: 1000px; background: #1f93cc; margin-top: 35px;border: 1px solid #1f93cc; overflow: hidden;
 }
 .y3-1 {
-    width: 42px; height: 454px; background: darkslategray; border: 1px solid red; float: left;
+    width: 60px; height: 1000px; background:#1f93cc; border: 1px solid #1f93cc; float: left;
 }
+.y3-1 img{padding-left: 10px;padding-top: 5px;}
 .y3-2 {
-    width: 180px; height: 454px; background: red; border: 1px solid red; float: left;
+    width: 334px; height: 1000px; background: #1f93cc; border: 1px solid #1f93cc; float: left;
 }
 .clear{clear:both}
 .y3-3 {
-    height: 120px; background: red; border: 1px solid silver;
+    height: 263px; background: #1f93cc; border: 1px solid #1f93cc;
 }
 .y3-4 {
-    height: 134px; background: rebeccapurple;border: 1px solid silver;
+    height: 234px; background: #1f93cc;border: 1px solid #1f93cc;
 }
 .y3-5 {
-    height: 200px; background: rosybrown;border: 1px solid silver;
+    height: 400px; background: #1f93cc;border: 1px solid #1f93cc;
 }
 .y2-1 {
-    height: 260px; background: darkslategray;
+    height: 400px; background: white;
 }
 .y2-2 {
-    height: 180px; background:greenyellow;
+    height: 350px; background:white;
 }
 .y2-3 {
-    height: 240px; background: yellow;}
+    height: 400px; background: white;}
+pre{line-height: 25px}
+.pre1{font-size: 20px;}
+.pre2{line-height: 30px;}
+.p1,.p2{ line-height: 25px; font-size: 16px}
+td{font-size: 20px; line-height: 30px}
+.p3{ font-size: 18px}
+
 
